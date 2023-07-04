@@ -1,0 +1,28 @@
+{
+  "name": "words",
+  "version": "1.0.0",
+  "description": "Five 5 letter words of 25 distinct characters",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write src/**/*.js index.js",
+    "tsc": "tsc --checkJs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magnusbrander/words.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magnusbrander/words/issues"
+  },
+  "homepage": "https://github.com/magnusbrander/words#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "prettier": "2.8.8",
+    "typescript": "5.1.6"
+  }
+}

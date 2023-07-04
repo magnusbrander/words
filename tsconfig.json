@@ -1,0 +1,22 @@
+{
+	"include": ["./index.js", "./src/**/*.js"],
+	"compilerOptions": {
+		"typeRoots": ["./node_modules/@types"],
+		"target": "ESNEXT",
+		"module": "ESNEXT",
+		"moduleResolution": "node",
+		"noEmit": true,
+		"allowJs": true,
+		"checkJs": true,
+		"pretty": false,
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"strictNullChecks": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"strictBindCallApply": true,
+		"allowSyntheticDefaultImports": true,
+	}
+}
